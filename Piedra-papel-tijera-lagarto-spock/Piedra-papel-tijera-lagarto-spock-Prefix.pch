@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Piedra-papel-tijera-lagarto-spock' target in the 'Piedra-papel-tijera-lagarto-spock' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

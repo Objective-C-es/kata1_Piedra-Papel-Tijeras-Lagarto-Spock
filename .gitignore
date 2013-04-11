@@ -1,0 +1,43 @@
+#####
+# OS X temporary files that should never be committed
+
+.DS_Store
+*.swp
+
+####
+# Xcode temporary files that should never be committed
+# 
+
+*.xcuserstate
+xcuserdata/
+
+# NB: NIB/XIB files still exist even on Storyboard projects
+
+*~.nib
+
+####
+# Xcode build files -
+#
+# NB: slash on the end, so we only remove the FOLDER, not any files that were badly named "build"
+
+build/
+
+####
+# AppCode: jetbrains.com/objc
+#
+# JetBrains' AppCode leaves a .idea folder in the project root, 
+# containing lots of files of transient state.
+
+.idea/
+
+####
+# Cocoapods: cocoapods.org
+# 
+# Ignoring these files means that whoever uses the code will first have to run:
+# pod install
+# in the App.xcodeproj directory.
+# This ensures the latest dependencies are used.
+
+Pods/
+Podfile.lock
+*.xcworkspace
